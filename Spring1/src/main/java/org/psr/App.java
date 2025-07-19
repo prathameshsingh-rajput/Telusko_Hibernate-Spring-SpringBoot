@@ -16,5 +16,7 @@ public class App
         Subject subject1 = (Subject) context.getBean("subject");
         Subject subject2 = (Subject) context.getBean("subject");
         System.out.println("Are subject1 and subject2 the same? " + (subject1 == subject2));
+
+        System.out.println("\nStudent Name: " + student1.getName());
     }
 }

@@ -5,6 +5,7 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="student" class="org.psr.Student">
+        <property name="name" value="Prathameshsingh Rajput"/>
     </bean>
 
     <bean id="subject" class="org.psr.Subject" scope="prototype">
